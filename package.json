@@ -1,0 +1,30 @@
+{
+  "name": "express-http-monitoring",
+  "version": "1.0.0",
+  "description": "Sample Express project to show how to monitor HTTP connections with AWS CloudWatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mhilaire/express-http-monitoring.git"
+  },
+  "keywords": [
+    "express",
+    "cloudwatch",
+    "AWS",
+    "http"
+  ],
+  "author": "Maxime Hilaire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhilaire/express-http-monitoring/issues"
+  },
+  "homepage": "https://github.com/mhilaire/express-http-monitoring#readme",
+  "dependencies": {
+    "aws-sdk": "^2.642.0",
+    "express": "^4.17.1",
+    "node-schedule": "^1.3.2"
+  }
+}
