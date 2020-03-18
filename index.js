@@ -68,6 +68,9 @@ app.get('/',
 	
 });
 
+// Throttle max connections opened
+// server.maxConnections = 2;
+
 const port = 3000;
 server.listen(port, () => console.log(`Server listening on port ${port}!`));
 
