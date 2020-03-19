@@ -1,6 +1,6 @@
 # express-http-monitoring
 
-Simple Express/nodeJS app to illustrate my medium article
+Simple Express/nodeJS app to illustrate my [medium article](https://medium.com/@mhilaire/custom-aws-cloudwatch-metrics-c04d490b51b1)
 
 You can start the app with: `node index.js`
 
